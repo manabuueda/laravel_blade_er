@@ -1,9 +1,10 @@
-import sys
 import math
+import sys
+
 import pygraphviz as pgv
-from PyQt5.QtWidgets import QApplication, QGraphicsScene, QGraphicsView, QPushButton, QGraphicsProxyWidget
-from PyQt5.QtCore import Qt, QPointF, QRectF, QLineF
-from PyQt5.QtGui import QPainter, QPen, QBrush, QColor, QPolygonF, QTransform
+from PyQt5.QtCore import QPointF, QLineF
+from PyQt5.QtGui import QPainter, QPen, QBrush, QColor, QPolygonF
+from PyQt5.QtWidgets import QApplication, QGraphicsScene, QGraphicsView, QPushButton
 
 
 def create_graph(file_path):
